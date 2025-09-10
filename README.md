@@ -19,3 +19,4 @@ Program üzerinde yapılabilecek işlemler
 
 Not
 - Program üzerinde ileriki zamanlarda belirli güncellemeler ve iyileştirmeler yapılacaktır.
+- Programın çalışması için mutlaka bilgisayarınızda devexpress paketinin 19.1 sürümü kurulu olmalıdır.
