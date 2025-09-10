@@ -1,22 +1,21 @@
 Personel Yönetim Uygulaması
 
-- Bu Proje Bir Windows Form Uygulamasıdır.
-- Tasarım Alanında Devexpress Taraflı Gelişmiş Modern Kontroller Kullanılarak Arayüz Oluşturulmuştur.
-- Verilerin Düzenlenmesi Ve Kayıt Edilmesi İçin Json Yapısı Kullanılmıştır.
-- Programda Yaşanabilecek Tüm Hata Kayıtları Tarafımda Bulunan Mail Üzerine Loglanmaktadır.
-- Oluşturulan Veri Modelleri Sınıflara Dayalıdır. Json Tabanlıdır.
+-Bu proje bir Windows Form uygulamasıdır.
+-Tasarım alanında, DevExpress taraflı gelişmiş modern kontroller kullanılarak arayüz oluşturulmuştur.
+-Verilerin düzenlenmesi ve kayıt edilmesi için JSON yapısı kullanılmıştır.
+-Programda yaşanabilecek tüm hata kayıtları, tarafımda bulunan mail adresine loglanmaktadır.
+-Oluşturulan veri modelleri sınıflara dayalıdır ve JSON tabanlıdır.
 
- 
- Program Üzerinde Yapılabilecek İşlemler
- 
-- Personel Ekleme,Silme,Düzenleme
-- Düzenleme Yapılan Personel Kaydına Göre Değişiklikleri Log Kaydı Olarak Tarih Ve Saate Göre Görüntüleme (Local Ip Alınmaktadır.)
-- Verileri Excel,Pdf,Html,Word Tabanlı Olarak Aktarma. Panoya Kopyalama(--> Pano İçin (Tüm Veriler,Satır))
-- Kısayolları Kullanarak İşlem Yapma
-- Ugulamada Tema Ayarlarını Degiştirme.
-- Dışarıdan Dosya Açıp Düzenleme
-- Gmail Taraflı Mail Gönderme. (Dosyada Eklenebilir)
-- Verilerin Üzerinde Filtreleme Yapma
+Program üzerinde yapılabilecek işlemler
 
---Not--
-- Program Üzerinde İlerki Zamanlarda Belirli Güncellemeler Ve İyileştirmeler Yapılacaktır.
+-Personel ekleme, silme, düzenleme
+-Düzenleme yapılan personel kaydına göre değişiklikleri log kaydı olarak tarih ve saate göre görüntüleme (local IP alınmaktadır)
+-Verileri Excel, PDF, HTML, Word tabanlı olarak aktarma; panoya kopyalama (tüm veriler veya satır)
+-Kısayolları kullanarak işlem yapma
+-Uygulamada tema ayarlarını değiştirme
+-Dışarıdan dosya açıp düzenleme
+-Gmail taraflı mail gönderme (dosya eklenebilir)
+-Verilerin üzerinde filtreleme yapma
+
+Not
+-Program üzerinde ileriki zamanlarda belirli güncellemeler ve iyileştirmeler yapılacaktır.
