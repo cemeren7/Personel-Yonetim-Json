@@ -20,3 +20,8 @@ Program üzerinde yapılabilecek işlemler
 Not
 - Program üzerinde ileriki zamanlarda belirli güncellemeler ve iyileştirmeler yapılacaktır.
 - Programın çalışması için mutlaka bilgisayarınızda devexpress paketinin 19.1 sürümü kurulu olmalıdır.
+
+- Güncellemeler 11.09.2025
+- Mail gönderiminde yaşanan durum asenkron olarak göndermeye dayalı olarak güncellendi.
+- tooltip nesnelerinde tasarım iyileştirmesine gidildi.
+- Mail gönderme işleminde hata ayıklaması için try/catch yapısı eklendi.
