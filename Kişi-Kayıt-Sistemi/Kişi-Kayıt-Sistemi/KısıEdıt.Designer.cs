@@ -32,8 +32,10 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(KısıEdıt));
             this.layoutControl1 = new DevExpress.XtraLayout.LayoutControl();
             this.BtnCancel = new DevExpress.XtraEditors.SimpleButton();
+            this.toolTipController1 = new DevExpress.Utils.ToolTipController(this.components);
             this.BtnKaydet = new DevExpress.XtraEditors.SimpleButton();
             this.txtAçıklama = new DevExpress.XtraEditors.TextEdit();
+            this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.txtMail = new DevExpress.XtraEditors.TextEdit();
             this.txtPhone = new DevExpress.XtraEditors.TextEdit();
             this.txtAdSoyad = new DevExpress.XtraEditors.TextEdit();
@@ -45,10 +47,10 @@
             this.layoutControlItem2 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem4 = new DevExpress.XtraLayout.LayoutControlItem();
             this.emptySpaceItem2 = new DevExpress.XtraLayout.EmptySpaceItem();
-            this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).BeginInit();
             this.layoutControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.txtAçıklama.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtMail.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtPhone.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtAdSoyad.Properties)).BeginInit();
@@ -60,7 +62,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             this.SuspendLayout();
             // 
             // layoutControl1
@@ -91,7 +92,20 @@
             this.BtnCancel.Size = new System.Drawing.Size(300, 30);
             this.BtnCancel.StyleController = this.layoutControl1;
             this.BtnCancel.TabIndex = 9;
+            this.BtnCancel.ToolTip = "Kapat Esc";
+            this.BtnCancel.ToolTipController = this.toolTipController1;
+            this.BtnCancel.ToolTipIconType = DevExpress.Utils.ToolTipIconType.Information;
+            this.BtnCancel.ToolTipTitle = "Bilgilendirme";
             this.BtnCancel.Click += new System.EventHandler(this.BtnCancel_Click);
+            // 
+            // toolTipController1
+            // 
+            this.toolTipController1.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.toolTipController1.Appearance.Options.UseBackColor = true;
+            this.toolTipController1.Rounded = true;
+            this.toolTipController1.RoundRadius = 4;
+            this.toolTipController1.ToolTipLocation = DevExpress.Utils.ToolTipLocation.TopCenter;
+            this.toolTipController1.ToolTipType = DevExpress.Utils.ToolTipType.Standard;
             // 
             // BtnKaydet
             // 
@@ -104,6 +118,10 @@
             this.BtnKaydet.Size = new System.Drawing.Size(300, 30);
             this.BtnKaydet.StyleController = this.layoutControl1;
             this.BtnKaydet.TabIndex = 8;
+            this.BtnKaydet.ToolTip = "Kaydet ENTER";
+            this.BtnKaydet.ToolTipController = this.toolTipController1;
+            this.BtnKaydet.ToolTipIconType = DevExpress.Utils.ToolTipIconType.Information;
+            this.BtnKaydet.ToolTipTitle = "Bilgilendirme";
             this.BtnKaydet.Click += new System.EventHandler(this.BtnKaydet_Click);
             // 
             // txtAçıklama
@@ -114,6 +132,10 @@
             this.txtAçıklama.Size = new System.Drawing.Size(307, 20);
             this.txtAçıklama.StyleController = this.layoutControl1;
             this.txtAçıklama.TabIndex = 7;
+            // 
+            // bindingSource1
+            // 
+            this.bindingSource1.DataSource = typeof(Kişi_Kayıt_Sistemi.Person);
             // 
             // txtMail
             // 
@@ -238,10 +260,6 @@
             this.emptySpaceItem2.Size = new System.Drawing.Size(608, 105);
             this.emptySpaceItem2.TextSize = new System.Drawing.Size(0, 0);
             // 
-            // bindingSource1
-            // 
-            this.bindingSource1.DataSource = typeof(Kişi_Kayıt_Sistemi.Person);
-            // 
             // KısıEdıt
             // 
             this.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -263,6 +281,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).EndInit();
             this.layoutControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.txtAçıklama.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtMail.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtPhone.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtAdSoyad.Properties)).EndInit();
@@ -274,7 +293,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -296,5 +314,6 @@
         private DevExpress.XtraEditors.SimpleButton BtnCancel;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem6;
         private DevExpress.XtraLayout.EmptySpaceItem emptySpaceItem2;
+        private DevExpress.Utils.ToolTipController toolTipController1;
     }
 }

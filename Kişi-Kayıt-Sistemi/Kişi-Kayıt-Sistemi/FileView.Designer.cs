@@ -33,12 +33,12 @@ namespace Kişi_Kayıt_Sistemi
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FileView));
             this.layoutControl1 = new DevExpress.XtraLayout.LayoutControl();
             this.FileClose = new DevExpress.XtraEditors.SimpleButton();
+            this.toolTipController1 = new DevExpress.Utils.ToolTipController(this.components);
             this.FileOpen = new DevExpress.XtraEditors.SimpleButton();
             this.Root = new DevExpress.XtraLayout.LayoutControlGroup();
             this.layoutControlItem1 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem2 = new DevExpress.XtraLayout.LayoutControlItem();
             this.fileviewtool = new DevExpress.XtraRichEdit.RichEditControl();
-            this.toolTipController1 = new DevExpress.Utils.ToolTipController(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).BeginInit();
             this.layoutControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Root)).BeginInit();
@@ -72,6 +72,15 @@ namespace Kişi_Kayıt_Sistemi
             this.FileClose.ToolTipIconType = DevExpress.Utils.ToolTipIconType.Information;
             this.FileClose.ToolTipTitle = "Bilgilendirme";
             this.FileClose.Click += new System.EventHandler(this.FileClose_Click);
+            // 
+            // toolTipController1
+            // 
+            this.toolTipController1.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.toolTipController1.Appearance.Options.UseBackColor = true;
+            this.toolTipController1.Rounded = true;
+            this.toolTipController1.RoundRadius = 4;
+            this.toolTipController1.ToolTipLocation = DevExpress.Utils.ToolTipLocation.TopCenter;
+            this.toolTipController1.ToolTipType = DevExpress.Utils.ToolTipType.Standard;
             // 
             // FileOpen
             // 
@@ -124,12 +133,6 @@ namespace Kişi_Kayıt_Sistemi
             this.fileviewtool.Name = "fileviewtool";
             this.fileviewtool.Size = new System.Drawing.Size(903, 694);
             this.fileviewtool.TabIndex = 1;
-            // 
-            // toolTipController1
-            // 
-            this.toolTipController1.Rounded = true;
-            this.toolTipController1.ToolTipStyle = DevExpress.Utils.ToolTipStyle.Windows7;
-            this.toolTipController1.ToolTipType = DevExpress.Utils.ToolTipType.SuperTip;
             // 
             // FileView
             // 

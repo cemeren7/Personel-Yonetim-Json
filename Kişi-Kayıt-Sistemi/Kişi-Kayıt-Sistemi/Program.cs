@@ -5,7 +5,6 @@ using System.Windows.Forms;
 using System.Net;
 using System.Net.Mail;
 using System.Diagnostics;
-using System.Net.Mime;
 namespace Kişi_Kayıt_Sistemi
 {
     static class Program

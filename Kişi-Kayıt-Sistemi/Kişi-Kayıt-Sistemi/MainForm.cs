@@ -14,7 +14,6 @@ namespace Kişi_Kayıt_Sistemi
         public MainForm()
         {
             InitializeComponent();
-            IsMdiContainer = true;
             KeyPreview = true;
             UserLookAndFeel.Default.StyleChanged += default_style;
         }
@@ -71,6 +70,18 @@ namespace Kişi_Kayıt_Sistemi
             if (e.Alt && e.KeyCode==Keys.F11)
             {
                 this.WindowState = FormWindowState.Normal;
+            }
+            if (e.Control && e.KeyCode==Keys.K)
+            {
+                ListBtn.PerformClick();
+            }
+            if (e.Control && e.KeyCode==Keys.O)
+            {
+                FileView.PerformClick();
+            }
+            if (e.Control && e.KeyCode==Keys.M)
+            {
+                btnsend.PerformClick();
             }
         }
         private void FileView_ItemClick(object sender, ItemClickEventArgs e)

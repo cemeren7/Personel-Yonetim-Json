@@ -31,6 +31,15 @@ namespace Kişi_Kayıt_Sistemi
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
+            DevExpress.Utils.SuperToolTip superToolTip1 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem1 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem1 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip2 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem2 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem2 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip3 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem3 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem3 = new DevExpress.Utils.ToolTipItem();
             this.ribbonControl1 = new DevExpress.XtraBars.Ribbon.RibbonControl();
             this.Temabtn = new DevExpress.XtraBars.BarButtonItem();
             this.ListBtn = new DevExpress.XtraBars.BarButtonItem();
@@ -103,6 +112,12 @@ namespace Kişi_Kayıt_Sistemi
             this.ListBtn.Id = 2;
             this.ListBtn.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("ListBtn.ImageOptions.Image")));
             this.ListBtn.Name = "ListBtn";
+            toolTipTitleItem1.Text = "Bilgilendirme";
+            toolTipItem1.LeftIndent = 6;
+            toolTipItem1.Text = "Kişiler Listesi Ve İşlemleri CTRL+K";
+            superToolTip1.Items.Add(toolTipTitleItem1);
+            superToolTip1.Items.Add(toolTipItem1);
+            this.ListBtn.SuperTip = superToolTip1;
             this.ListBtn.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.ListBtn_ItemClick);
             // 
             // Jsondatabtn
@@ -187,6 +202,12 @@ namespace Kişi_Kayıt_Sistemi
             this.FileView.Id = 15;
             this.FileView.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("FileView.ImageOptions.Image")));
             this.FileView.Name = "FileView";
+            toolTipTitleItem2.Text = "Bilgilendirme";
+            toolTipItem2.LeftIndent = 6;
+            toolTipItem2.Text = "Dosya Açma Ve Kaydetme CTRL+O";
+            superToolTip2.Items.Add(toolTipTitleItem2);
+            superToolTip2.Items.Add(toolTipItem2);
+            this.FileView.SuperTip = superToolTip2;
             this.FileView.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.FileView_ItemClick);
             // 
             // btnsend
@@ -195,6 +216,12 @@ namespace Kişi_Kayıt_Sistemi
             this.btnsend.Id = 16;
             this.btnsend.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnsend.ImageOptions.Image")));
             this.btnsend.Name = "btnsend";
+            toolTipTitleItem3.Text = "Bilgilendirme\r\n";
+            toolTipItem3.LeftIndent = 6;
+            toolTipItem3.Text = "Mail Gönderme CRTL+M";
+            superToolTip3.Items.Add(toolTipTitleItem3);
+            superToolTip3.Items.Add(toolTipItem3);
+            this.btnsend.SuperTip = superToolTip3;
             this.btnsend.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnsend_ItemClick);
             // 
             // ribbonPage1

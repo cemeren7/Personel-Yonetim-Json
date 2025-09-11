@@ -56,7 +56,7 @@ namespace Kişi_Kayıt_Sistemi
                 txtfilepath.Text = filepath;
             }
         }
-        private void BtnSend_Click(object sender, EventArgs e)
+        private async void BtnSend_Click(object sender, EventArgs e)
         {
             if (txtfrom.Text.Trim() == "" || txtto.Text.Trim() == "" || txthesap.Text.Trim() == "" || txtsıfre.Text.Trim() == "")
             {
@@ -81,10 +81,17 @@ namespace Kişi_Kayıt_Sistemi
                 {
                     Attachment fileadd = new Attachment(fileopen);
                     mail.Attachments.Add(fileadd);
-                }  
-                mail.To.Add(txtto.Text.Trim());
-                Task.Run(() => client.Send(mail));
-                XtraMessageBox.Show("E-Postanız Başarılı Bir Şekilde İletildi Lüften Gmail Hesabınızı Kontrol Edin", "Bilgilendirme", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                try
+                {
+                    mail.To.Add(txtto.Text.Trim());
+                    await client.SendMailAsync(mail);
+                    XtraMessageBox.Show("E-Postanız Başarılı Bir Şekilde İletildi Lüften Gmail Hesabınızı Kontrol Edin", "Bilgilendirme", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                catch(Exception ee)
+                {
+                    XtraMessageBox.Show($"Mail Gönderimi Sırasında Hata Oluştu Hata: {ee.Message}", "Bilgilendirme", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }     
             }
         }
     }

@@ -28,7 +28,7 @@
       <property name="Name">colPhone</property>
       <property name="VisibleIndex">2</property>
       <property name="Visible">true</property>
-      <property name="Width">51</property>
+      <property name="Width">50</property>
       <property name="MinWidth">20</property>
       <property name="MaxWidth">0</property>
     </property>
@@ -44,7 +44,7 @@
       <property name="Name">colKayitTarih</property>
       <property name="VisibleIndex">4</property>
       <property name="Visible">true</property>
-      <property name="Width">106</property>
+      <property name="Width">112</property>
       <property name="MinWidth">20</property>
       <property name="MaxWidth">0</property>
     </property>
@@ -68,7 +68,7 @@
       <property name="Name">colDuzeltTarih</property>
       <property name="VisibleIndex">7</property>
       <property name="Visible">true</property>
-      <property name="Width">106</property>
+      <property name="Width">112</property>
       <property name="MinWidth">20</property>
       <property name="MaxWidth">0</property>
     </property>

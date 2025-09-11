@@ -31,6 +31,7 @@ namespace Kişi_Kayıt_Sistemi
                     gridView1.OptionsBehavior.Editable = false;
                     gridView1.BestFitMaxRowCount = -1;
                     gridView1.BestFitColumns();
+                    gridView1.Columns["ChangeDate"].BestFit();
                 }
                 else
                 {

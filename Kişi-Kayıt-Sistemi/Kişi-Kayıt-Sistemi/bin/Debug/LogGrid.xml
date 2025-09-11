@@ -18,7 +18,7 @@
       <property name="Name">colChangeDate</property>
       <property name="VisibleIndex">6</property>
       <property name="Visible">true</property>
-      <property name="Width">106</property>
+      <property name="Width">113</property>
       <property name="MinWidth">20</property>
       <property name="MaxWidth">0</property>
     </property>

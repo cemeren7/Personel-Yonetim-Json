@@ -32,49 +32,49 @@ namespace Kişi_Kayıt_Sistemi
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Mailcontrol));
             this.layoutControl1 = new DevExpress.XtraLayout.LayoutControl();
-            this.Root = new DevExpress.XtraLayout.LayoutControlGroup();
-            this.txthesap = new DevExpress.XtraEditors.TextEdit();
-            this.layoutControlItem1 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.txtsıfre = new DevExpress.XtraEditors.TextEdit();
-            this.layoutControlItem2 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.txtfrom = new DevExpress.XtraEditors.TextEdit();
-            this.layoutControlItem3 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.txtto = new DevExpress.XtraEditors.TextEdit();
-            this.layoutControlItem4 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.txtcaption = new DevExpress.XtraEditors.TextEdit();
-            this.layoutControlItem5 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.txtmesaj = new DevExpress.XtraEditors.MemoEdit();
-            this.layoutControlItem6 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.btnfile = new DevExpress.XtraEditors.SimpleButton();
-            this.layoutControlItem7 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.BtnSend = new DevExpress.XtraEditors.SimpleButton();
-            this.layoutControlItem8 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.btnCancel = new DevExpress.XtraEditors.SimpleButton();
-            this.layoutControlItem9 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.toolTipController1 = new DevExpress.Utils.ToolTipController(this.components);
-            this.txtcaptionfile = new DevExpress.XtraEditors.LabelControl();
-            this.layoutControlItem10 = new DevExpress.XtraLayout.LayoutControlItem();
             this.txtfilepath = new DevExpress.XtraEditors.LabelControl();
+            this.txtcaptionfile = new DevExpress.XtraEditors.LabelControl();
+            this.btnCancel = new DevExpress.XtraEditors.SimpleButton();
+            this.toolTipController1 = new DevExpress.Utils.ToolTipController(this.components);
+            this.BtnSend = new DevExpress.XtraEditors.SimpleButton();
+            this.btnfile = new DevExpress.XtraEditors.SimpleButton();
+            this.txtmesaj = new DevExpress.XtraEditors.MemoEdit();
+            this.txtcaption = new DevExpress.XtraEditors.TextEdit();
+            this.txtto = new DevExpress.XtraEditors.TextEdit();
+            this.txtfrom = new DevExpress.XtraEditors.TextEdit();
+            this.txtsıfre = new DevExpress.XtraEditors.TextEdit();
+            this.txthesap = new DevExpress.XtraEditors.TextEdit();
+            this.Root = new DevExpress.XtraLayout.LayoutControlGroup();
+            this.layoutControlItem1 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.layoutControlItem3 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.layoutControlItem5 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.layoutControlItem6 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.layoutControlItem7 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.layoutControlItem8 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.layoutControlItem9 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.layoutControlItem10 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.layoutControlItem2 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.layoutControlItem4 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem11 = new DevExpress.XtraLayout.LayoutControlItem();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).BeginInit();
             this.layoutControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Root)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txthesap.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtsıfre.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtfrom.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtto.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtcaption.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtmesaj.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtcaption.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtto.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtfrom.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtsıfre.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txthesap.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Root)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem11)).BeginInit();
             this.SuspendLayout();
             // 
@@ -99,6 +99,128 @@ namespace Kişi_Kayıt_Sistemi
             this.layoutControl1.TabIndex = 0;
             this.layoutControl1.Text = "layoutControl1";
             // 
+            // txtfilepath
+            // 
+            this.txtfilepath.Location = new System.Drawing.Point(93, 118);
+            this.txtfilepath.Name = "txtfilepath";
+            this.txtfilepath.Size = new System.Drawing.Size(894, 13);
+            this.txtfilepath.StyleController = this.layoutControl1;
+            this.txtfilepath.TabIndex = 14;
+            // 
+            // txtcaptionfile
+            // 
+            this.txtcaptionfile.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
+            this.txtcaptionfile.Appearance.Options.UseFont = true;
+            this.txtcaptionfile.Location = new System.Drawing.Point(12, 118);
+            this.txtcaptionfile.Name = "txtcaptionfile";
+            this.txtcaptionfile.Size = new System.Drawing.Size(77, 13);
+            this.txtcaptionfile.StyleController = this.layoutControl1;
+            this.txtcaptionfile.TabIndex = 13;
+            this.txtcaptionfile.Text = "Dosya Yolu:    ";
+            // 
+            // btnCancel
+            // 
+            this.btnCancel.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnCancel.ImageOptions.Image")));
+            this.btnCancel.ImageOptions.ImageToTextAlignment = DevExpress.XtraEditors.ImageAlignToText.LeftCenter;
+            this.btnCancel.Location = new System.Drawing.Point(501, 509);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(486, 30);
+            this.btnCancel.StyleController = this.layoutControl1;
+            this.btnCancel.TabIndex = 7;
+            this.btnCancel.ToolTip = "İptal Et Ve Formu Kapat";
+            this.btnCancel.ToolTipController = this.toolTipController1;
+            this.btnCancel.ToolTipIconType = DevExpress.Utils.ToolTipIconType.Information;
+            this.btnCancel.ToolTipTitle = "Bilgilendirme";
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
+            // 
+            // toolTipController1
+            // 
+            this.toolTipController1.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.toolTipController1.Appearance.Options.UseBackColor = true;
+            this.toolTipController1.Rounded = true;
+            this.toolTipController1.RoundRadius = 4;
+            this.toolTipController1.ToolTipLocation = DevExpress.Utils.ToolTipLocation.TopCenter;
+            this.toolTipController1.ToolTipType = DevExpress.Utils.ToolTipType.Standard;
+            // 
+            // BtnSend
+            // 
+            this.BtnSend.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("BtnSend.ImageOptions.Image")));
+            this.BtnSend.ImageOptions.ImageToTextAlignment = DevExpress.XtraEditors.ImageAlignToText.LeftCenter;
+            this.BtnSend.Location = new System.Drawing.Point(12, 509);
+            this.BtnSend.Name = "BtnSend";
+            this.BtnSend.Size = new System.Drawing.Size(485, 30);
+            this.BtnSend.StyleController = this.layoutControl1;
+            this.BtnSend.TabIndex = 6;
+            this.BtnSend.ToolTip = "E-Posta Gönder  Enter";
+            this.BtnSend.ToolTipController = this.toolTipController1;
+            this.BtnSend.ToolTipIconType = DevExpress.Utils.ToolTipIconType.Information;
+            this.BtnSend.ToolTipTitle = "Bilgilendirme";
+            this.BtnSend.Click += new System.EventHandler(this.BtnSend_Click);
+            // 
+            // btnfile
+            // 
+            this.btnfile.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnfile.ImageOptions.Image")));
+            this.btnfile.ImageOptions.ImageToTextAlignment = DevExpress.XtraEditors.ImageAlignToText.TopCenter;
+            this.btnfile.Location = new System.Drawing.Point(12, 84);
+            this.btnfile.Name = "btnfile";
+            this.btnfile.Size = new System.Drawing.Size(975, 30);
+            this.btnfile.StyleController = this.layoutControl1;
+            this.btnfile.TabIndex = 10;
+            this.btnfile.ToolTip = "E-Posta Dosya Ekleme CTRL+ O";
+            this.btnfile.ToolTipController = this.toolTipController1;
+            this.btnfile.ToolTipIconType = DevExpress.Utils.ToolTipIconType.Information;
+            this.btnfile.ToolTipTitle = "Bilgilendirme";
+            this.btnfile.Click += new System.EventHandler(this.btnfile_Click);
+            // 
+            // txtmesaj
+            // 
+            this.txtmesaj.Location = new System.Drawing.Point(149, 135);
+            this.txtmesaj.Name = "txtmesaj";
+            this.txtmesaj.Size = new System.Drawing.Size(838, 370);
+            this.txtmesaj.StyleController = this.layoutControl1;
+            this.txtmesaj.TabIndex = 5;
+            // 
+            // txtcaption
+            // 
+            this.txtcaption.Location = new System.Drawing.Point(149, 60);
+            this.txtcaption.Name = "txtcaption";
+            this.txtcaption.Size = new System.Drawing.Size(838, 20);
+            this.txtcaption.StyleController = this.layoutControl1;
+            this.txtcaption.TabIndex = 4;
+            // 
+            // txtto
+            // 
+            this.txtto.Location = new System.Drawing.Point(638, 36);
+            this.txtto.Name = "txtto";
+            this.txtto.Size = new System.Drawing.Size(349, 20);
+            this.txtto.StyleController = this.layoutControl1;
+            this.txtto.TabIndex = 3;
+            // 
+            // txtfrom
+            // 
+            this.txtfrom.Location = new System.Drawing.Point(149, 36);
+            this.txtfrom.Name = "txtfrom";
+            this.txtfrom.Size = new System.Drawing.Size(348, 20);
+            this.txtfrom.StyleController = this.layoutControl1;
+            this.txtfrom.TabIndex = 2;
+            // 
+            // txtsıfre
+            // 
+            this.txtsıfre.Location = new System.Drawing.Point(638, 12);
+            this.txtsıfre.Name = "txtsıfre";
+            this.txtsıfre.Properties.PasswordChar = '*';
+            this.txtsıfre.Size = new System.Drawing.Size(349, 20);
+            this.txtsıfre.StyleController = this.layoutControl1;
+            this.txtsıfre.TabIndex = 1;
+            // 
+            // txthesap
+            // 
+            this.txthesap.Location = new System.Drawing.Point(149, 12);
+            this.txthesap.Name = "txthesap";
+            this.txthesap.Size = new System.Drawing.Size(348, 20);
+            this.txthesap.StyleController = this.layoutControl1;
+            this.txthesap.TabIndex = 0;
+            // 
             // Root
             // 
             this.Root.EnableIndentsWithoutBorders = DevExpress.Utils.DefaultBoolean.True;
@@ -119,14 +241,6 @@ namespace Kişi_Kayıt_Sistemi
             this.Root.Size = new System.Drawing.Size(999, 551);
             this.Root.TextVisible = false;
             // 
-            // txthesap
-            // 
-            this.txthesap.Location = new System.Drawing.Point(150, 12);
-            this.txthesap.Name = "txthesap";
-            this.txthesap.Size = new System.Drawing.Size(347, 20);
-            this.txthesap.StyleController = this.layoutControl1;
-            this.txthesap.TabIndex = 0;
-            // 
             // layoutControlItem1
             // 
             this.layoutControlItem1.AppearanceItemCaption.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
@@ -139,36 +253,6 @@ namespace Kişi_Kayıt_Sistemi
             this.layoutControlItem1.Size = new System.Drawing.Size(489, 24);
             this.layoutControlItem1.Text = "  Gmail Hesabınız: ";
             this.layoutControlItem1.TextSize = new System.Drawing.Size(134, 13);
-            // 
-            // txtsıfre
-            // 
-            this.txtsıfre.Location = new System.Drawing.Point(639, 12);
-            this.txtsıfre.Name = "txtsıfre";
-            this.txtsıfre.Properties.PasswordChar = '*';
-            this.txtsıfre.Size = new System.Drawing.Size(348, 20);
-            this.txtsıfre.StyleController = this.layoutControl1;
-            this.txtsıfre.TabIndex = 1;
-            // 
-            // layoutControlItem2
-            // 
-            this.layoutControlItem2.AppearanceItemCaption.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
-            this.layoutControlItem2.AppearanceItemCaption.Options.UseFont = true;
-            this.layoutControlItem2.AppearanceItemCaption.Options.UseTextOptions = true;
-            this.layoutControlItem2.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.layoutControlItem2.Control = this.txtsıfre;
-            this.layoutControlItem2.Location = new System.Drawing.Point(489, 0);
-            this.layoutControlItem2.Name = "layoutControlItem2";
-            this.layoutControlItem2.Size = new System.Drawing.Size(490, 24);
-            this.layoutControlItem2.Text = " Mail Uygulama Şifreniz:";
-            this.layoutControlItem2.TextSize = new System.Drawing.Size(134, 13);
-            // 
-            // txtfrom
-            // 
-            this.txtfrom.Location = new System.Drawing.Point(150, 36);
-            this.txtfrom.Name = "txtfrom";
-            this.txtfrom.Size = new System.Drawing.Size(347, 20);
-            this.txtfrom.StyleController = this.layoutControl1;
-            this.txtfrom.TabIndex = 2;
             // 
             // layoutControlItem3
             // 
@@ -183,35 +267,6 @@ namespace Kişi_Kayıt_Sistemi
             this.layoutControlItem3.Text = " Gönderen Hesap:";
             this.layoutControlItem3.TextSize = new System.Drawing.Size(134, 13);
             // 
-            // txtto
-            // 
-            this.txtto.Location = new System.Drawing.Point(639, 36);
-            this.txtto.Name = "txtto";
-            this.txtto.Size = new System.Drawing.Size(348, 20);
-            this.txtto.StyleController = this.layoutControl1;
-            this.txtto.TabIndex = 3;
-            // 
-            // layoutControlItem4
-            // 
-            this.layoutControlItem4.AppearanceItemCaption.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
-            this.layoutControlItem4.AppearanceItemCaption.Options.UseFont = true;
-            this.layoutControlItem4.AppearanceItemCaption.Options.UseTextOptions = true;
-            this.layoutControlItem4.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.layoutControlItem4.Control = this.txtto;
-            this.layoutControlItem4.Location = new System.Drawing.Point(489, 24);
-            this.layoutControlItem4.Name = "layoutControlItem4";
-            this.layoutControlItem4.Size = new System.Drawing.Size(490, 24);
-            this.layoutControlItem4.Text = " Gönderilecek Hesap:  ";
-            this.layoutControlItem4.TextSize = new System.Drawing.Size(134, 13);
-            // 
-            // txtcaption
-            // 
-            this.txtcaption.Location = new System.Drawing.Point(150, 60);
-            this.txtcaption.Name = "txtcaption";
-            this.txtcaption.Size = new System.Drawing.Size(837, 20);
-            this.txtcaption.StyleController = this.layoutControl1;
-            this.txtcaption.TabIndex = 4;
-            // 
             // layoutControlItem5
             // 
             this.layoutControlItem5.AppearanceItemCaption.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
@@ -224,14 +279,6 @@ namespace Kişi_Kayıt_Sistemi
             this.layoutControlItem5.Size = new System.Drawing.Size(979, 24);
             this.layoutControlItem5.Text = "Konu:";
             this.layoutControlItem5.TextSize = new System.Drawing.Size(134, 13);
-            // 
-            // txtmesaj
-            // 
-            this.txtmesaj.Location = new System.Drawing.Point(150, 135);
-            this.txtmesaj.Name = "txtmesaj";
-            this.txtmesaj.Size = new System.Drawing.Size(837, 370);
-            this.txtmesaj.StyleController = this.layoutControl1;
-            this.txtmesaj.TabIndex = 5;
             // 
             // layoutControlItem6
             // 
@@ -246,21 +293,6 @@ namespace Kişi_Kayıt_Sistemi
             this.layoutControlItem6.Text = "Mesaj İçerigi:";
             this.layoutControlItem6.TextSize = new System.Drawing.Size(134, 13);
             // 
-            // btnfile
-            // 
-            this.btnfile.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnfile.ImageOptions.Image")));
-            this.btnfile.ImageOptions.ImageToTextAlignment = DevExpress.XtraEditors.ImageAlignToText.TopCenter;
-            this.btnfile.Location = new System.Drawing.Point(12, 84);
-            this.btnfile.Name = "btnfile";
-            this.btnfile.Size = new System.Drawing.Size(975, 30);
-            this.btnfile.StyleController = this.layoutControl1;
-            this.btnfile.TabIndex = 10;
-            this.btnfile.ToolTip = "E-Posta Dosya Ekleme CTRL+ O";
-            this.btnfile.ToolTipController = this.toolTipController1;
-            this.btnfile.ToolTipIconType = DevExpress.Utils.ToolTipIconType.Information;
-            this.btnfile.ToolTipTitle = "Bilgilendirme";
-            this.btnfile.Click += new System.EventHandler(this.btnfile_Click);
-            // 
             // layoutControlItem7
             // 
             this.layoutControlItem7.Control = this.btnfile;
@@ -269,21 +301,6 @@ namespace Kişi_Kayıt_Sistemi
             this.layoutControlItem7.Size = new System.Drawing.Size(979, 34);
             this.layoutControlItem7.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem7.TextVisible = false;
-            // 
-            // BtnSend
-            // 
-            this.BtnSend.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("BtnSend.ImageOptions.Image")));
-            this.BtnSend.ImageOptions.ImageToTextAlignment = DevExpress.XtraEditors.ImageAlignToText.LeftCenter;
-            this.BtnSend.Location = new System.Drawing.Point(12, 509);
-            this.BtnSend.Name = "BtnSend";
-            this.BtnSend.Size = new System.Drawing.Size(485, 30);
-            this.BtnSend.StyleController = this.layoutControl1;
-            this.BtnSend.TabIndex = 6;
-            this.BtnSend.ToolTip = "E-Posta Gönder  Enter";
-            this.BtnSend.ToolTipController = this.toolTipController1;
-            this.BtnSend.ToolTipIconType = DevExpress.Utils.ToolTipIconType.Information;
-            this.BtnSend.ToolTipTitle = "Bilgilendirme";
-            this.BtnSend.Click += new System.EventHandler(this.BtnSend_Click);
             // 
             // layoutControlItem8
             // 
@@ -294,21 +311,6 @@ namespace Kişi_Kayıt_Sistemi
             this.layoutControlItem8.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem8.TextVisible = false;
             // 
-            // btnCancel
-            // 
-            this.btnCancel.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnCancel.ImageOptions.Image")));
-            this.btnCancel.ImageOptions.ImageToTextAlignment = DevExpress.XtraEditors.ImageAlignToText.LeftCenter;
-            this.btnCancel.Location = new System.Drawing.Point(501, 509);
-            this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(486, 30);
-            this.btnCancel.StyleController = this.layoutControl1;
-            this.btnCancel.TabIndex = 7;
-            this.btnCancel.ToolTip = "İptal Et Ve Formu Kapat";
-            this.btnCancel.ToolTipController = this.toolTipController1;
-            this.btnCancel.ToolTipIconType = DevExpress.Utils.ToolTipIconType.Information;
-            this.btnCancel.ToolTipTitle = "Bilgilendirme";
-            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
-            // 
             // layoutControlItem9
             // 
             this.layoutControlItem9.Control = this.btnCancel;
@@ -317,23 +319,6 @@ namespace Kişi_Kayıt_Sistemi
             this.layoutControlItem9.Size = new System.Drawing.Size(490, 34);
             this.layoutControlItem9.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem9.TextVisible = false;
-            // 
-            // toolTipController1
-            // 
-            this.toolTipController1.ToolTipLocation = DevExpress.Utils.ToolTipLocation.TopCenter;
-            this.toolTipController1.ToolTipStyle = DevExpress.Utils.ToolTipStyle.Windows7;
-            this.toolTipController1.ToolTipType = DevExpress.Utils.ToolTipType.SuperTip;
-            // 
-            // txtcaptionfile
-            // 
-            this.txtcaptionfile.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
-            this.txtcaptionfile.Appearance.Options.UseFont = true;
-            this.txtcaptionfile.Location = new System.Drawing.Point(12, 118);
-            this.txtcaptionfile.Name = "txtcaptionfile";
-            this.txtcaptionfile.Size = new System.Drawing.Size(77, 13);
-            this.txtcaptionfile.StyleController = this.layoutControl1;
-            this.txtcaptionfile.TabIndex = 13;
-            this.txtcaptionfile.Text = "Dosya Yolu:    ";
             // 
             // layoutControlItem10
             // 
@@ -344,13 +329,31 @@ namespace Kişi_Kayıt_Sistemi
             this.layoutControlItem10.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem10.TextVisible = false;
             // 
-            // txtfilepath
+            // layoutControlItem2
             // 
-            this.txtfilepath.Location = new System.Drawing.Point(93, 118);
-            this.txtfilepath.Name = "txtfilepath";
-            this.txtfilepath.Size = new System.Drawing.Size(894, 13);
-            this.txtfilepath.StyleController = this.layoutControl1;
-            this.txtfilepath.TabIndex = 14;
+            this.layoutControlItem2.AppearanceItemCaption.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
+            this.layoutControlItem2.AppearanceItemCaption.Options.UseFont = true;
+            this.layoutControlItem2.AppearanceItemCaption.Options.UseTextOptions = true;
+            this.layoutControlItem2.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.layoutControlItem2.Control = this.txtsıfre;
+            this.layoutControlItem2.Location = new System.Drawing.Point(489, 0);
+            this.layoutControlItem2.Name = "layoutControlItem2";
+            this.layoutControlItem2.Size = new System.Drawing.Size(490, 24);
+            this.layoutControlItem2.Text = " Mail Uygulama Şifreniz:";
+            this.layoutControlItem2.TextSize = new System.Drawing.Size(134, 13);
+            // 
+            // layoutControlItem4
+            // 
+            this.layoutControlItem4.AppearanceItemCaption.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
+            this.layoutControlItem4.AppearanceItemCaption.Options.UseFont = true;
+            this.layoutControlItem4.AppearanceItemCaption.Options.UseTextOptions = true;
+            this.layoutControlItem4.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.layoutControlItem4.Control = this.txtto;
+            this.layoutControlItem4.Location = new System.Drawing.Point(489, 24);
+            this.layoutControlItem4.Name = "layoutControlItem4";
+            this.layoutControlItem4.Size = new System.Drawing.Size(490, 24);
+            this.layoutControlItem4.Text = " Gönderilecek Hesap:  ";
+            this.layoutControlItem4.TextSize = new System.Drawing.Size(134, 13);
             // 
             // layoutControlItem11
             // 
@@ -373,23 +376,23 @@ namespace Kişi_Kayıt_Sistemi
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Mailcontrol_KeyDown);
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).EndInit();
             this.layoutControl1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.Root)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txthesap.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtsıfre.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtfrom.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtto.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txtcaption.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtmesaj.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtcaption.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtto.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtfrom.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtsıfre.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txthesap.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Root)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem11)).EndInit();
             this.ResumeLayout(false);
 

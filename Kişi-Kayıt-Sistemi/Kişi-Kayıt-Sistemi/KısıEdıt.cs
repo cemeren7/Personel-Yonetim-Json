@@ -61,10 +61,6 @@ namespace Kişi_Kayıt_Sistemi
             {
                 BtnCancel.PerformClick();
             }
-            if (e.KeyCode == Keys.F3)
-            {
-                BtnKaydet.PerformClick();
-            }
             if (e.KeyCode==Keys.Enter)
             {
                 BtnKaydet.PerformClick();

@@ -166,10 +166,12 @@ namespace Kişi_Kayıt_Sistemi
             // 
             // toolTipController1
             // 
+            this.toolTipController1.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.toolTipController1.Appearance.Options.UseBackColor = true;
             this.toolTipController1.Rounded = true;
+            this.toolTipController1.RoundRadius = 4;
             this.toolTipController1.ToolTipLocation = DevExpress.Utils.ToolTipLocation.TopCenter;
-            this.toolTipController1.ToolTipStyle = DevExpress.Utils.ToolTipStyle.Windows7;
-            this.toolTipController1.ToolTipType = DevExpress.Utils.ToolTipType.SuperTip;
+            this.toolTipController1.ToolTipType = DevExpress.Utils.ToolTipType.Standard;
             // 
             // panel1
             // 
