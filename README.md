@@ -28,6 +28,6 @@ Personel Yönetim Uygulaması
 
 Güncellemeler 11.09.2025
 
-- Mail gönderiminde yaşanan durum asenkron olarak göndermeye dayalı olarak güncellendi.
+- Mail gönderiminde yaşanan durum asenkron yapısına dayalı olarak güncellendi.
 - tooltip nesnelerinde tasarım iyileştirmesine gidildi.
 - Mail gönderme işleminde hata ayıklaması için try/catch yapısı eklendi.
