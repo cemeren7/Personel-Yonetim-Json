@@ -17,7 +17,7 @@ Personel Yönetim Uygulaması
 - Kısayolları kullanarak işlem yapma
 - Uygulamada tema ayarlarını değiştirme
 - Dışarıdan dosya açıp düzenleme
-- Gmail taraflı mail gönderme (dosya eklenebilir)
+- Gmail Hesabınız ile mail gönderme (dosya eklenebilir)
 - Verilerin üzerinde filtreleme yapma
   
  Not
