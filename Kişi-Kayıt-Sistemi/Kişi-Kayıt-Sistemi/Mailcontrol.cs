@@ -15,7 +15,6 @@ namespace Kişi_Kayıt_Sistemi
         }
         string fileopen;
         string filepath;
-        string localıp = Dns.GetHostAddresses(Dns.GetHostName()).FirstOrDefault(c => c.AddressFamily == System.Net.Sockets.AddressFamily.InterNetwork)?.ToString();
         private void Mailcontrol_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode==Keys.Escape)
@@ -77,7 +76,7 @@ namespace Kişi_Kayıt_Sistemi
                     IsBodyHtml = true,
                     From = new MailAddress(txtfrom.Text.Trim()),
                     Subject = txtcaption.Text.Trim(),
-                    Body = "<p><b style='font-family: Arial, sans-serif;'> Gönderen pc ıp: </b>" + localıp + "</p>" +
+                    Body = "<p><b style='font-family: Arial, sans-serif;'> Gönderen pc Adı: </b>" + Environment.MachineName + "</p>" +
                           "</br>" +
                           "<p><b style='font-family: Arial, sans-serif;'> Gönderilen tarih ve saat: </b>" + DateTime.Now + "</p>" +
                           "</br>" + txtmesaj.Text.Trim(),
