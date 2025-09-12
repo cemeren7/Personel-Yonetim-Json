@@ -47,7 +47,6 @@ namespace Kişi_Kayıt_Sistemi
                               "Microsoft Excel Tabloları (*.xlsx)|*.xlsx|" +
                               "Metin Dosyaları (*.txt)|*.txt|" +
                               "Resim Dosyaları (*.jpg;*.jpeg;*.png;*.gif)|*.jpg;*.jpeg;*.png;*.gif|" +
-                              "Arşiv Dosyaları (*.zip;*.rar;*.7z)|*.zip;*.rar;*.7z|" +
                               "Tüm Dosyalar (*.*)|*.*";
             if (openmail.ShowDialog()==DialogResult.OK)
             {
@@ -90,7 +89,7 @@ namespace Kişi_Kayıt_Sistemi
                 {
                     mail.To.Add(txtto.Text.Trim());
                     await client.SendMailAsync(mail);
-                    XtraMessageBox.Show("E-Postanız Başarılı Bir Şekilde İletildi Lüften Gmail Hesabınızı Kontrol Edin", "Bilgilendirme", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    XtraMessageBox.Show("E-Postanız Başarılı Bir Şekilde İletildi.", "Bilgilendirme", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
                 catch(Exception ee)
                 {

@@ -614,4 +614,3 @@ C:\Users\Lenovo\Documents\GitHub\Personel-Yonetim-Json\Kişi-Kayıt-Sistemi\Kiş
 C:\Users\Lenovo\Documents\GitHub\Personel-Yonetim-Json\Kişi-Kayıt-Sistemi\Kişi-Kayıt-Sistemi\obj\Debug\Kişi-Kayıt-Sistemi.csproj.CopyComplete
 C:\Users\Lenovo\Documents\GitHub\Personel-Yonetim-Json\Kişi-Kayıt-Sistemi\Kişi-Kayıt-Sistemi\obj\Debug\Kişi-Kayıt-Sistemi.exe
 C:\Users\Lenovo\Documents\GitHub\Personel-Yonetim-Json\Kişi-Kayıt-Sistemi\Kişi-Kayıt-Sistemi\obj\Debug\Kişi-Kayıt-Sistemi.pdb
-C:\Users\Lenovo\Documents\GitHub\Personel-Yonetim-Json\Kişi-Kayıt-Sistemi\Kişi-Kayıt-Sistemi\obj\Debug\Kişi-Kayıt-Sistemi.csproj.AssemblyReference.cache
