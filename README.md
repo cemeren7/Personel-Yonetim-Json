@@ -37,4 +37,5 @@ Güncellemeler 12.09.2025
 
 - Mail gönderiminde pc adı alınarak mail alanına eklendi.
 - Mesaj gövdesinde html etiketleri aktif edildi.
-
+- Mail tarafına dosya eklemede .Rar ve .Zip dosyaları seçenekleri kaldırıldı.(desteklenmiyor)
+- Mesaj iyileştirmesi
