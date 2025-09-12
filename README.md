@@ -17,7 +17,7 @@ Personel Yönetim Uygulaması
 - Kısayolları kullanarak işlem yapma
 - Uygulamada tema ayarlarını değiştirme
 - Dışarıdan dosya açıp düzenleme
-- Gmail taraflı mail gönderme (dosya eklenebilir)
+- Gmail Hesabınız ile mail gönderme (dosya eklenebilir)
 - Verilerin üzerinde filtreleme yapma
   
  Not
@@ -35,6 +35,6 @@ Güncellemeler 11.09.2025
 
 Güncellemeler 12.09.2025
 
-- Mail gönderiminde pc yerel ıp alınarak mesaja alan olarak eklendi.
-- Mesaj gövdesinde html etiketleri aktif edildi
+- Mail gönderiminde pc adı alınarak mail alanına eklendi.
+- Mesaj gövdesinde html etiketleri aktif edildi.
 
