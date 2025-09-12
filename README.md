@@ -35,6 +35,6 @@ Güncellemeler 11.09.2025
 
 Güncellemeler 12.09.2025
 
-- Mail gönderiminde pc yerel ıp alınarak mesaja alan olarak eklendi.
-- Mesaj gövdesinde html etiketleri aktif edildi
+- Mail gönderiminde pc adı alınarak mail alanına eklendi.
+- Mesaj gövdesinde html etiketleri aktif edildi.
 
