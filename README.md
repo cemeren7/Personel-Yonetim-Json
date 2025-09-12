@@ -31,3 +31,10 @@ Güncellemeler 11.09.2025
 - Mail gönderiminde yaşanan durum asenkron yapısına dayalı olarak güncellendi.
 - tooltip nesnelerinde tasarım iyileştirmesine gidildi.
 - Mail gönderme işleminde hata ayıklaması için try/catch yapısı eklendi.
+
+
+Güncellemeler 12.09.2025
+
+- Mail gönderiminde pc yerel ıp alınarak mesaja alan olarak eklendi.
+- Mesaj gövdesinde html etiketleri aktif edildi
+
